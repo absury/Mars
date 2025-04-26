@@ -6,7 +6,7 @@ const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
   dialect: dbConfig.dialect,
   port: dbConfig.port,
   dialectOptions: dbConfig.dialectOptions,
-  logging: false, // optional: remove SQL logging if you want
+  logging: false,
 });
 
 // Initialize models etc.
